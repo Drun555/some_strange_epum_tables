@@ -36,6 +36,10 @@ button {
 	overflow: hidden;
 }
 
+a {
+	cursor: pointer;
+}
+
 #third_table {
 	display:none;
 }
@@ -53,6 +57,7 @@ button {
 }
 
 .triangle {
+	cursor: pointer;
 	text-align: right;
 	transition: 0.3s;
 	opacity: 0.5;
