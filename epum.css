@@ -1,0 +1,82 @@
+table {
+	width: 100%;
+}
+
+#form_position {
+	display: block;
+	overflow: visible;
+	height: auto;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding: 25px;
+	box-shadow: 0px 10px 40px
+	#00000045;
+	border-radius: 8px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+@media all and (max-width: 940px) {
+	#form_position {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: white;
+		padding: 25px;
+		box-shadow: 0;
+		border-radius: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+button {
+	overflow: hidden;
+}
+
+#third_table {
+	display:none;
+}
+
+.button-width {
+	width: 45%;
+}
+
+.name_error_a {
+	color:red;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.triangle {
+	text-align: right;
+	transition: 0.3s;
+	opacity: 0.5;
+	margin-top: -1px;
+	margin-bottom: auto;
+	font-size: 13pt;
+	margin-left: 10px;
+	position: absolute;
+	color:black;
+	text-decoration: none !important;
+}
+
+.triangle_top {
+	transform: rotate(180deg);
+	transition: 0.3s;
+	opacity: 1;
+	color:green !important;
+	margin-top: 3px;
+}
+
+.triangle_bottom {
+	transform: rotate(0deg);
+	transition: 0.3s;
+	opacity: 1;
+	color:red !important;
+	margin-top: -1px;
+}
